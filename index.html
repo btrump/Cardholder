@@ -35,7 +35,6 @@ ie8" lang="en"> <![endif]-->
 		</script>
 	</head>
 	<body>
-
 		<div id="container">
 			<div id="header">
 				<div id="logo">
@@ -43,199 +42,47 @@ ie8" lang="en"> <![endif]-->
 				</div>
 			</div>
 			<div id="slate" class="clearfix" role="slate">
-				<div id="nav" role="navigation">
-					<div id="nav_header">
-						Control Panel
-					</div>
-					<div id="nav_content">
-						<div class="nav_item inactive">
-							Item 1
-						</div>
-						<div class="nav_item active">
-							Personnel&nbsp;&rarr;
-						</div>
-						<div class="nav_item inactive">
-							Item 3
+				<div id="login_container">
+					<div id="login_header">
+						Log On
+						<div id="login_logo">
+							<img src="img/logo.png">
 						</div>
 					</div>
-				</div>
-				<div id="main" role="main" class="cardholder">
-					<div id="main_header" class="clearfix">
-						<h2>Cardholder Management</h2>
-						<div id="management_tabs" role="tabs" class="tabs">
-							<div class="active">
-								<a href="#" class="view">View User</a>
+					<div id="login_content">
+					<form action="view_user.html">
+						<div class="field">
+							<div class="label">
+								User ID
 							</div>
-							<div class="inactive">
-								<a href="find_user.html" class="ajax find" title="Find User">Find User</a>
-							</div>
-							<div class="inactive">
-								<a href="add_user.html" class="ajax add" title="Add User">Add User</a>
-							</div>
+							<input style="text" class="wide" />
 						</div>
-					</div>
-					<div id="main_content">
-						<div id="user_data" class="clearfix">
-							<div id="fields">
-								<div id="field_left">
-									<div class="field">
-										<div class="label">
-											Last Name
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<div class="label">
-											First Name
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<div class="label">
-											M.I.
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<div class="label">
-											Activation Date
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<div class="label">
-											Expiration Date
-										</div>
-										<input style="text" class="wide" />
-									</div>
-								</div>
-								<div id="field_right">
-									<div class="field">
-										<div class="label">
-											Employee ID
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<div class="label">
-											Cardholder ID
-										</div>
-										<input style="text" class="wide" />
-									</div>
-									<div class="field">
-										<input type="checkbox" />
-										<div class="label-check">
-											Access Blocked
-										</div>
-									</div>
-									<div class="field">
-										<input type="checkbox" />
-										<div class="label-check">
-											Special Access
-										</div>
-									</div>
-									<div class="field">
-										<input type="checkbox" />
-										<div class="label-check">
-											Controlled Antipassback
-										</div>
-									</div>
-								</div>
+						<div class="field">
+							<div class="label">
+								Password
 							</div>
-							<div id="photo_container">
-								<div id="photo">
-									<img src="img/headshot-small.png" />
-								</div>
-								<div id="enlarge">
-									<a href="#">Click to Enlarge</a>
-								</div>
-								<div id="photo_webcam">
-									<a href="#">Webcam Photo</a>
-								</div>
-								<div id="photo_upload">
-									<a href="#">Upload Photo</a>
-								</div>
-							</div>
-							<div id="user_tools_container">
-								<div id="user_tools_header">
-									Tools
-								</div>
-								<div id="user_tools_buttons">
-									<div class="button">
-										<a href="#" class="ajax save">Save Changes</a>
-									</div>
-									<div class="button">
-										<a href="#" class="ajax revert">Revert Changes</a>
-									</div>
-									<div class="button">
-										<a href="#" class="ajax delete">Delete User</a>
-									</div>
-								</div>
-							</div>
+							<input style="text" class="wide" />
 						</div>
-						<div id="udf" class="clearfix">
-							<div id="udf_header" class="clearfix">
-								<div id="udf_tabs" class="tabs" role="tabs">
-									<div class="active">
-										Personal
-									</div>
-									<div class="inactive">
-										<a href="credentials.html">Credentials</a>
-									</div>
-								</div>
-							</div>
-							<div id="udf_content" class="clearfix">
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-								<div class="field">
-									<div class="label">
-										Last Name
-									</div>
-									<input style="text" class="wide" />
-								</div>
-							</div>
+						<div id="login_controls" class="clearfix">
+							<a href="help.html" class="ajax help">Help</a>
+							&nbsp;
+							<input class="continue" type="submit" value="Continue &rarr;" />
 						</div>
+					</form>
 					</div>
 				</div>
-				<div id="footer">
-					Footer here.
-				</div>
-			</div> <!-- eo #container -->
-			<!-- end scripts-->
+			</div>
+			<div id="footer">
+				Footer here.
+			</div>
+		</div> <!-- eo #container -->
+		<!-- end scripts-->
 
-			<!--[if lt IE 7 ]>
-			<script
-			src="js/libs/dd_belatedpng.js"></script>
-			<script>DD_belatedPNG.fix("img,
-			.png_bg");</script>
-			<![endif]-->
+		<!--[if lt IE 7 ]>
+		<script
+		src="js/libs/dd_belatedpng.js"></script>
+		<script>DD_belatedPNG.fix("img,
+		.png_bg");</script>
+		<![endif]-->
 	</body>
 </html>
