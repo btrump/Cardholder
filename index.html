@@ -1,0 +1,241 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<!--[if lt IE 7 ]> <html class="no-js
+ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js
+ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js
+ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title></title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+		<link rel="stylesheet" href="css/style.css?v=2">
+		<link rel="stylesheet" href="libs/colorbox/colorbox.css">
+		<script src="js/libs/jquery-1.5.1.min.js">
+		</script>
+		<script src="libs/colorbox/jquery.colorbox.js">
+		</script>
+		<script>
+            $(document).ready( function() {
+                //Examples of how to assign the ColorBox event to elements
+                $(".ajax").colorbox();
+            });
+		</script>
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="header">
+				<div id="logo">
+					<img src="img/logo.png" />
+				</div>
+			</div>
+			<div id="slate" class="clearfix" role="slate">
+				<div id="nav" role="navigation">
+					<div id="nav_header">
+						Control Panel
+					</div>
+					<div id="nav_content">
+						<div class="nav_item inactive">
+							Item 1
+						</div>
+						<div class="nav_item active">
+							Personnel&nbsp;&rarr;
+						</div>
+						<div class="nav_item inactive">
+							Item 3
+						</div>
+					</div>
+				</div>
+				<div id="main" role="main" class="cardholder">
+					<div id="main_header" class="clearfix">
+						<h2>Cardholder Management</h2>
+						<div id="management_tabs" role="tabs" class="tabs">
+							<div class="active">
+								<a href="#" class="view">View User</a>
+							</div>
+							<div class="inactive">
+								<a href="find_user.html" class="ajax find" title="Find User">Find User</a>
+							</div>
+							<div class="inactive">
+								<a href="add_user.html" class="ajax add" title="Add User">Add User</a>
+							</div>
+						</div>
+					</div>
+					<div id="main_content">
+						<div id="user_data" class="clearfix">
+							<div id="fields">
+								<div id="field_left">
+									<div class="field">
+										<div class="label">
+											Last Name
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<div class="label">
+											First Name
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<div class="label">
+											M.I.
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<div class="label">
+											Activation Date
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<div class="label">
+											Expiration Date
+										</div>
+										<input style="text" class="wide" />
+									</div>
+								</div>
+								<div id="field_right">
+									<div class="field">
+										<div class="label">
+											Employee ID
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<div class="label">
+											Cardholder ID
+										</div>
+										<input style="text" class="wide" />
+									</div>
+									<div class="field">
+										<input type="checkbox" />
+										<div class="label-check">
+											Access Blocked
+										</div>
+									</div>
+									<div class="field">
+										<input type="checkbox" />
+										<div class="label-check">
+											Special Access
+										</div>
+									</div>
+									<div class="field">
+										<input type="checkbox" />
+										<div class="label-check">
+											Controlled Antipassback
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="photo_container">
+								<div id="photo">
+									<img src="img/headshot-small.png" />
+								</div>
+								<div id="enlarge">
+									<a href="#">Click to Enlarge</a>
+								</div>
+								<div id="photo_webcam">
+									<a href="#">Webcam Photo</a>
+								</div>
+								<div id="photo_upload">
+									<a href="#">Upload Photo</a>
+								</div>
+							</div>
+							<div id="user_tools_container">
+								<div id="user_tools_header">
+									Tools
+								</div>
+								<div id="user_tools_buttons">
+									<div class="button">
+										<a href="#" class="ajax save">Save Changes</a>
+									</div>
+									<div class="button">
+										<a href="#" class="ajax revert">Revert Changes</a>
+									</div>
+									<div class="button">
+										<a href="#" class="ajax delete">Delete User</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="udf" class="clearfix">
+							<div id="udf_header" class="clearfix">
+								<div id="udf_tabs" class="tabs" role="tabs">
+									<div class="active">
+										Personal
+									</div>
+									<div class="inactive">
+										<a href="credentials.html">Credentials</a>
+									</div>
+								</div>
+							</div>
+							<div id="udf_content" class="clearfix">
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+								<div class="field">
+									<div class="label">
+										Last Name
+									</div>
+									<input style="text" class="wide" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="footer">
+					Footer here.
+				</div>
+			</div> <!-- eo #container -->
+			<!-- end scripts-->
+
+			<!--[if lt IE 7 ]>
+			<script
+			src="js/libs/dd_belatedpng.js"></script>
+			<script>DD_belatedPNG.fix("img,
+			.png_bg");</script>
+			<![endif]-->
+	</body>
+</html>
